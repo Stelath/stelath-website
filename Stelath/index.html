@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Stelath - Home</title>
+	<link href="CSS/siteStyle.css" rel="stylesheet" type="text/css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154591966-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-154591966-1');
+    </script>
+</head>
+<body>
+	<header>
+		<img src="Images/CircleLogo.png" id="siteLogo"/>
+		<h2 id="heading">Stelath</h2>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Html/games.html">Games</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<h4 id="titleAndIntroText">Game Developer</h4>
+	<div id="titleAndIntroTextButtons">
+		<input type="button" onClick="document.getElementById('learnMoreText').scrollIntoView();" class="button learnMoreButton" value="Learn More" />
+		<input type="button" onclick="window.location.href='Html/games.html'" class="button goToGamesButton" value="Games" />
+	</div>
+	<p id="learnMoreText" class="bodyText">I make some random games, Have Fun!</p>
+</body>
+</html>
